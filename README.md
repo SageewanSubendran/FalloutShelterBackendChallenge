@@ -27,9 +27,15 @@
 * Within your Visual Studio Code terminal, run the following command: "npm start"
 * You should see the following message in your terminal:
   
-  "Server running on port: http://localhost:5000
+                                              Server running on port: http://localhost:5000
+
+                                              App has started.
+
+* Now that your app is running, open your browser and enter the following URL into the search: http://localhost:5000
+* You should see the following within your browser:
+
+                                              [] 
+                                              
+* You have received an empty JSON response since there are 0 Dwellers in the Underground Vault, look below for the queries and requests you can make in this application:
   
-  App has started."
-
-
 
