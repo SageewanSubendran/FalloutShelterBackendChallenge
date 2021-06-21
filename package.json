@@ -1,0 +1,26 @@
+{
+  "name": "fallout_shelter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.6.2",
+    "table": "^6.7.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
