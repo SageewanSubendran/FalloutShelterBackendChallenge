@@ -1,6 +1,14 @@
 # Mistplay Backend Challenge
 ## Summary
-*
+Welcome to the Fallout Shelter Underground Vault, where you act as the Overseer with the ability to:
+ * Retrieve information regarding each dweller in the Vault
+ * Allow dwellers to enter the Vault
+ * Retrieve all information regarding a specific dweller by providing their user ID
+ * Query the Vault for dwellers that match a specific search filter (i.e: haircolor, eyecolor, age, name)
+ * Move time forward to retrieve a search result with dwellers and their updated ages 
+ 
+Please follow along to setup the environment and run the application. 
+
 
 ## Installation and Setup
 * Be sure to install...
@@ -36,6 +44,84 @@
 
                                               [] 
                                               
-* You have received an empty JSON response since there are 0 Dwellers in the Underground Vault, look below for the queries and requests you can make in this application:
+* You have received an empty JSON response since there are 0 dwellers in the Underground Vault, look below for the API methods and JSON responses that are possible within this app:
   
+  * Get list of dwellers: 
+  
+      API Method: GET
+      
+      URL: localhost:5000/dwellers
+      
+      Ex: localhost:5000/dwellers
+      
+      
+      ![image](https://user-images.githubusercontent.com/24356539/122839143-751a9a00-d2c5-11eb-9d8c-4794ef53c663.png)
 
+      
+  * Add a dweller to the Vault: 
+  
+      API Method: POST
+      
+      URL: localhost:5000/dwellers
+      
+      Ex: localhost:5000/dwellers
+      
+      ![image](https://user-images.githubusercontent.com/24356539/122839097-63d18d80-d2c5-11eb-978e-cbcfb502b361.png)
+
+      
+      
+  * Get dweller information after providing a userID: 
+  
+      API Method: GET
+      
+      URL: localhost:5000/dwellers/userID/"paste userID here"
+      
+      Ex: localhost:5000/dwellers/userID/1f98cd5a-6e65-4605-a10a-3dccfa814614
+
+      ![image](https://user-images.githubusercontent.com/24356539/122839209-94192c00-d2c5-11eb-95df-0025a93f233e.png)
+
+      
+      
+  * Get list of dwellers after performing a search query: 
+  
+      API Method: GET
+      
+      URL: localhost:5000/dwellers/search?"search filter goes here"="filter parameter goes here"
+      
+      Note: You can use "&" within the url to do a search with multiple filters
+      
+      List of Filters:
+      
+        * name
+        
+        * haircolor
+        
+        * eyecolor
+        
+        * age
+
+        * agelt (less than the specified age)
+        
+        * agegt (greater than the specified age)
+        
+      Ex: localhost:5000/dwellers/search?name="sam"&haircolor="blue"&agegt=30
+      
+      ![image](https://user-images.githubusercontent.com/24356539/122839418-fd00a400-d2c5-11eb-8bff-f009e253f8ac.png)
+      
+      
+      
+   * Move time forward, leading to aging dwellers: 
+  
+      API Method: GET
+      
+      URL: localhost:5000/dwellers/addyears/"add number of years forward here"
+      
+      Ex: localhost:5000/dwellers/addyears/5
+      
+      ![image](https://user-images.githubusercontent.com/24356539/122839595-5537a600-d2c6-11eb-974a-0970a7541f1d.png)
+
+
+      
+      
+  
+ 
