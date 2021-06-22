@@ -1,4 +1,4 @@
-# Mistplay Backend Challenge
+# Fallout Shelter Backend Challenge
 ## Summary
 Welcome to the Fallout Shelter Underground Vault, where you act as the Overseer with the ability to:
  * Retrieve information regarding each dweller in the Vault
