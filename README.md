@@ -122,6 +122,18 @@ Please follow along to setup the environment and run the application.
 
 
       
-      
-  
+     
+## If this project was a paid service, how would clients use it?
+Key use cases for this project as a paid service would be:
+
+  * Monitoring the number of dwellers in the Underground Vault at any given time
+
+  * Allowing new dwellers to enter the Underground Vault
+
+  * Retrieving information regarding a particular dweller (via their user ID)
+
+  * Retrieving a list of dwellers that match a particular profile (using search filters)
+
+  * Retrieving a list of dwellers that would remain alive after a specified amount of years have gone by 
  
+ All the information the client (Overseer) would be able to gather through API requests can give them an edge to make sound decisions in adding new dwellers to the vault, and monitoring the dwellers within the vault.
