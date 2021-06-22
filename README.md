@@ -136,4 +136,4 @@ Key use cases for this project as a paid service would be:
 
   * Retrieving a list of dwellers that would remain alive after a specified amount of years have gone by 
  
- All the information the client (Overseer) would be able to gather through API requests can give them an edge to make sound decisions in adding new dwellers to the vault, and monitoring the dwellers within the vault.
+ All the information the client (Overseer) would be able to gather through API requests can give them an edge to make sound decisions in adding new dwellers to the vault, and monitoring the existing dwellers within the vault.
